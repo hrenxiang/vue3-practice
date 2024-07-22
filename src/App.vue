@@ -6,6 +6,8 @@ import WatchReactiveObject from "@/components/watch/watchReactiveObject.vue";
 import WatchRefOrReactiveObjectField from "@/components/watch/watchRefOrReactiveObjectField.vue";
 import WatchRefOrReactiveObjectFields from "@/components/watch/watchRefOrReactiveObjectFields.vue";
 import WatchEffectDemo from "@/components/watch/watchEffectDemo.vue";
+import LabelRef from "@/components/labelRef/labelRef.vue";
+import ComponentRef from "@/components/labelRef/componentRef.vue";
 </script>
 
 <template>
@@ -14,7 +16,9 @@ import WatchEffectDemo from "@/components/watch/watchEffectDemo.vue";
   <!--  <WatchReactiveObject/>-->
   <!--  <WatchRefOrReactiveObjectField/>-->
   <!--  <WatchRefOrReactiveObjectFields/>-->
-  <WatchEffectDemo/>
+  <!--  <WatchEffectDemo/>-->
+  <!--  <LabelRef/>-->
+  <ComponentRef/>
 </template>
 
 <style scoped>

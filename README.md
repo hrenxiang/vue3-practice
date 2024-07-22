@@ -1,29 +1,42 @@
-# vue3-practice
+# Vue3 实践
+这个模板将帮助你开始使用 Vue 3 和 Vite 进行开发。
 
-This template should help get you started developing with Vue 3 in Vite.
+# 推荐的 IDE 设置
+推荐使用 VSCode + Volar（并禁用 Vetur 插件）。
 
-## Recommended IDE Setup
+# 自定义配置
+请参阅 Vite 配置参考。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+# 项目设置
+首先，安装项目依赖：
+```shell
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+编译和热加载用于开发
+运行以下命令启动开发服务器，并开启热加载功能：
+```shell
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
+编译并最小化用于生产
+运行以下命令将项目编译并最小化，以便部署到生产环境：
+```shell
 npm run build
 ```
+
+目录结构
+项目的基本目录结构如下：
+```
+├── public          # 静态资源目录
+├── src
+│   ├── assets      # 项目资源（图片、样式等）
+│   ├── components  # Vue 组件
+│   ├── views       # 视图组件
+│   ├── App.vue     # 根组件
+│   ├── main.js     # 入口文件
+├── index.html      # 入口 HTML 文件
+├── package.json    # 项目配置文件
+├── vite.config.js  # Vite 配置文件
+```
+
