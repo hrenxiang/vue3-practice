@@ -10,6 +10,8 @@ import LabelRef from "@/components/labelRef/labelRef.vue";
 import ComponentRef from "@/components/labelRef/componentRef.vue";
 import DownloadFragment from "@/components/file/downloadFragment.vue";
 import PropsDemo from "@/components/props/propsDemo.vue";
+import LifecycleDemoParent from "@/components/lifecycle/demoParent.vue";
+import CustomHookDemo from "@/components/customHook/customHookDemo.vue";
 </script>
 
 <template>
@@ -24,7 +26,9 @@ import PropsDemo from "@/components/props/propsDemo.vue";
   <!--  <div style="width: 600px; height: 500px; margin: auto; display: flex; align-items: center; justify-content: center;">-->
   <!--    <DownloadFragment/>-->
   <!--  </div>-->
-  <PropsDemo/>
+  <!--  <PropsDemo/>-->
+  <!--  <LifecycleDemoParent/>-->
+  <CustomHookDemo/>
 </template>
 
 <style scoped>
