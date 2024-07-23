@@ -8,6 +8,7 @@ import WatchRefOrReactiveObjectFields from "@/components/watch/watchRefOrReactiv
 import WatchEffectDemo from "@/components/watch/watchEffectDemo.vue";
 import LabelRef from "@/components/labelRef/labelRef.vue";
 import ComponentRef from "@/components/labelRef/componentRef.vue";
+import DownloadFragment from "@/components/file/downloadFragment.vue";
 </script>
 
 <template>
@@ -18,7 +19,10 @@ import ComponentRef from "@/components/labelRef/componentRef.vue";
   <!--  <WatchRefOrReactiveObjectFields/>-->
   <!--  <WatchEffectDemo/>-->
   <!--  <LabelRef/>-->
-  <ComponentRef/>
+  <!--  <ComponentRef/>-->
+  <!--  <div style="width: 600px; height: 500px; margin: auto; display: flex; align-items: center; justify-content: center;">-->
+  <!--    <DownloadFragment/>-->
+  <!--  </div>-->
 </template>
 
 <style scoped>
