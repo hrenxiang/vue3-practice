@@ -9,6 +9,7 @@ import WatchEffectDemo from "@/components/watch/watchEffectDemo.vue";
 import LabelRef from "@/components/labelRef/labelRef.vue";
 import ComponentRef from "@/components/labelRef/componentRef.vue";
 import DownloadFragment from "@/components/file/downloadFragment.vue";
+import PropsDemo from "@/components/props/propsDemo.vue";
 </script>
 
 <template>
@@ -23,6 +24,7 @@ import DownloadFragment from "@/components/file/downloadFragment.vue";
   <!--  <div style="width: 600px; height: 500px; margin: auto; display: flex; align-items: center; justify-content: center;">-->
   <!--    <DownloadFragment/>-->
   <!--  </div>-->
+  <PropsDemo/>
 </template>
 
 <style scoped>

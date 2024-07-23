@@ -37,6 +37,6 @@ npm run build
 │   ├── main.js     # 入口文件
 ├── index.html      # 入口 HTML 文件
 ├── package.json    # 项目配置文件
-├── vite.config.js  # Vite 配置文件
+├── vite.config.ts  # Vite 配置文件
 ```
 
