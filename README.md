@@ -34,7 +34,7 @@ npm run build
 │   ├── components  # Vue 组件
 │   ├── views       # 视图组件
 │   ├── App.vue     # 根组件
-│   ├── main.js     # 入口文件
+│   ├── main.ts     # 入口文件
 ├── index.html      # 入口 HTML 文件
 ├── package.json    # 项目配置文件
 ├── vite.config.ts  # Vite 配置文件
