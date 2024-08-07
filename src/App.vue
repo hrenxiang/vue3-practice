@@ -1,6 +1,7 @@
 <script setup lang="ts" name="App">
 
 import RouterTest from "@/components/router/RouterTest.vue";
+import PdfCopy from "@/components/pdf/pdfCopy.vue";
 </script>
 
 <template>
@@ -19,7 +20,8 @@ import RouterTest from "@/components/router/RouterTest.vue";
     <!--  <PropsDemo/>-->
     <!--  <LifecycleDemoParent/>-->
     <!--  <CustomHookDemo/>-->
-    <RouterTest/>
+    <!--    <RouterTest/>-->
+    <PdfCopy/>
   </div>
 </template>
 
