@@ -2,6 +2,7 @@
 
 import RouterTest from "@/components/router/RouterTest.vue";
 import PdfCopy from "@/components/pdf/pdfCopy.vue";
+import DontShowHeader from "@/components/eltable/DontShowHeader.vue";
 </script>
 
 <template>
@@ -21,7 +22,8 @@ import PdfCopy from "@/components/pdf/pdfCopy.vue";
     <!--  <LifecycleDemoParent/>-->
     <!--  <CustomHookDemo/>-->
     <!--    <RouterTest/>-->
-    <PdfCopy/>
+    <!--    <PdfCopy/>-->
+    <DontShowHeader/>
   </div>
 </template>
 
