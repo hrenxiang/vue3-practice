@@ -3,6 +3,7 @@
 import RouterTest from "@/components/router/RouterTest.vue";
 import PdfCopy from "@/components/pdf/pdfCopy.vue";
 import DontShowHeader from "@/components/eltable/DontShowHeader.vue";
+import RealTimeWeather from "@/components/weather/hefeng/realTimeWeather.vue";
 </script>
 
 <template>
@@ -23,7 +24,8 @@ import DontShowHeader from "@/components/eltable/DontShowHeader.vue";
     <!--  <CustomHookDemo/>-->
     <!--    <RouterTest/>-->
     <!--    <PdfCopy/>-->
-    <DontShowHeader/>
+    <!--    <DontShowHeader/>-->
+    <RealTimeWeather/>
   </div>
 </template>
 
