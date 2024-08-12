@@ -3,7 +3,9 @@
 import RouterTest from "@/components/router/RouterTest.vue";
 import PdfCopy from "@/components/pdf/pdfCopy.vue";
 import DontShowHeader from "@/components/eltable/DontShowHeader.vue";
-import RealTimeWeather from "@/components/weather/hefeng/realTimeWeather.vue";
+import RealTimeWeather from "@/components/weather/hefeng/hefengRealTimeWeather.vue";
+import GaodeRealTimeWeather from "@/components/weather/gaode/gaodeRealTimeWeather.vue";
+import HefengRealTimeWeather from "@/components/weather/hefeng/hefengRealTimeWeather.vue";
 </script>
 
 <template>
@@ -25,7 +27,8 @@ import RealTimeWeather from "@/components/weather/hefeng/realTimeWeather.vue";
     <!--    <RouterTest/>-->
     <!--    <PdfCopy/>-->
     <!--    <DontShowHeader/>-->
-    <RealTimeWeather/>
+<!--    <HefengRealTimeWeather/>-->
+        <GaodeRealTimeWeather/>
   </div>
 </template>
 
