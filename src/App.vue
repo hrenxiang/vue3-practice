@@ -6,6 +6,7 @@ import DontShowHeader from "@/components/eltable/DontShowHeader.vue";
 import RealTimeWeather from "@/components/weather/hefeng/hefengRealTimeWeather.vue";
 import GaodeRealTimeWeather from "@/components/weather/gaode/gaodeRealTimeWeather.vue";
 import HefengRealTimeWeather from "@/components/weather/hefeng/hefengRealTimeWeather.vue";
+import SingleLineEdit from "@/components/eltable/SingleLineEdit.vue";
 </script>
 
 <template>
@@ -27,8 +28,9 @@ import HefengRealTimeWeather from "@/components/weather/hefeng/hefengRealTimeWea
     <!--    <RouterTest/>-->
     <!--    <PdfCopy/>-->
     <!--    <DontShowHeader/>-->
-<!--    <HefengRealTimeWeather/>-->
-        <GaodeRealTimeWeather/>
+    <!--    <HefengRealTimeWeather/>-->
+    <!--        <GaodeRealTimeWeather/>-->
+    <SingleLineEdit/>
   </div>
 </template>
 
