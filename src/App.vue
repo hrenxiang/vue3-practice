@@ -1,12 +1,6 @@
 <script setup lang="ts" name="App">
 
-import RouterTest from "@/components/router/RouterTest.vue";
-import PdfCopy from "@/components/pdf/pdfCopy.vue";
-import DontShowHeader from "@/components/eltable/DontShowHeader.vue";
-import RealTimeWeather from "@/components/weather/hefeng/hefengRealTimeWeather.vue";
-import GaodeRealTimeWeather from "@/components/weather/gaode/gaodeRealTimeWeather.vue";
-import HefengRealTimeWeather from "@/components/weather/hefeng/hefengRealTimeWeather.vue";
-import SingleLineEdit from "@/components/eltable/SingleLineEdit.vue";
+import RenderMarkdown from "@/components/markdown/renderMarkdown.vue";
 </script>
 
 <template>
@@ -30,7 +24,8 @@ import SingleLineEdit from "@/components/eltable/SingleLineEdit.vue";
     <!--    <DontShowHeader/>-->
     <!--    <HefengRealTimeWeather/>-->
     <!--        <GaodeRealTimeWeather/>-->
-    <SingleLineEdit/>
+    <!--    <SingleLineEdit/>-->
+    <RenderMarkdown/>
   </div>
 </template>
 
