@@ -1,5 +1,6 @@
 <script setup lang="ts" name="App">
 
+import RouterTest from "@/components/router/RouterTest.vue";
 import RenderMarkdown from "@/components/markdown/renderMarkdown.vue";
 </script>
 
